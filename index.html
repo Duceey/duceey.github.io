@@ -4,6 +4,47 @@
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Make sure that padding behaves as expected */
+			* {box-sizing:border-box}
+
+			/* Container for skill bars */
+			.container {
+				position: relative;
+				margin-top: -88px; /* this was 45 */
+				margin-bottom: 14px;
+			}
+
+			.skills {
+				text-align: right;
+				padding: 9px;
+				border-radius: 10px;
+				border: 2px solid #ffffff;
+				margin-left: -10px;
+			}
+
+			.python {width: 85%;}
+			.csharp {width: 80%;}
+			.matlab {width: 70%;}
+			.cplusplus {width: 60%;}
+			.html {width: 60%;} 
+			.r {width: 50%;}
+			.js {width: 50%;}
+			.sql {width: 50%;}
+			.java {width: 45%;}
+
+			.unity {width: 80%;}
+			.vs {width: 70%;}
+			.latex {width: 70%;}
+			.intellij {width: 65%;}
+			.photoshop {width: 60%;}
+			.blender {width: 50%;}
+
+			.github {width: 70%;}
+
+			.excel {width: 90%;}
+			
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -12,10 +53,11 @@
 
 				<!-- Header -->
 					<header id="header">
+						<img src="images/profilePic.jpg" alt="" width="300"/>
 						<div class="content">
 							<div class="inner">
 								<h1>Oskar Duce</h1>
-								<p>Hi there and thanks for stopping by! My name is Oskar, I'm a passionate programmer with a passion for game develepment.</p>
+								<p>My name is Oskar, I'm a enthusiastic programmer with a passion for game development.</p>
 							</div>
 						</div>
 						<nav>
@@ -32,32 +74,173 @@
 					<div id="main">
 
 						<!-- Projects -->
-							<article id="Projects">
-								<h2 class="major">Projects</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Projects</p>	
-							</article>
+						<article id="Projects">
+							<h2 class="major">Projects</h2>
+
+							<h4>Bounce</h4>
+							<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+							<a href="https://duceey.github.io/OskarDuceVideoGamesPortfolio/Bounce/" target="_blank">Play Now</a>
+							<p>Bounce represents a significant milestone for me as the first game I've fully completed. The gameplay involves rotating the player to bounce off walls based on their rotation, and I take pride in the accomplishment, finding it quite fun. Give it a go.</p>
+							<br>
+
+							<h4 style="margin-top: 20px;">Cube-A-Thon</h4>
+							<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+							<a href="https://duceey.github.io/Game-Programming-Portfolio/Cube-A-Thon/Builds/Web%20Build/index.html" target="_blank">Play Now</a>
+							<p>Cube-A-Thon stands as one of my early Unity creations. The objective is to navigate a red cube, dodging walls until you reach the end.</p>
+							<br>
+
+							<h4 style="margin-top: 20px;">My First Platformer</h4>
+							<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+							<a href="https://duceey.github.io/Game-Programming-Portfolio/First%20Platformer/Build/index.html" target="_blank">Play Now</a>
+							<p>This game marked my initiation into platformer development, guiding me through the coding intricacies of essential video game features such as jumping, gravity, wall hops, and shooting projectiles. </p>
+							<br>
+
+							<h4 style="margin-top: 20px;">My Second Platformer</h4>
+							<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
+							<a href="https://duceey.github.io/Game-Programming-Portfolio/Land%20of%20Ushoo/Build/index.html" target="_blank">Play Now</a>
+							<p>My second platformer experience, this game introduced me to concepts such as animations, hit boxes, health bars, and enemy AI.</p>
+							<br>
+
+						</article>
 
 						<!-- Education -->
-							<article id="Education">
-								<h2 class="major">Education</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p></p>
-							</article>
+						<article id="Education">
+							<h2 class="major">Education</h2>
+							<h4>University of Queensland - Graduated 2023</h4>
+							<p>I pursued a Bachelor of Mathematics with a focus on Statistics and a minor in Computer Science. This academic journey has equipped me with a comprehensive understanding of statistics while also gaining valuable insights in computer science. Along this path, I found a love for game development.</p>
+							<img src="images/UQ.jpg" alt="" width="600"/>
+							<br><br>
+
+							<h4>Immanuel Lutheran College - Class of 2018</h4>
+							<p>As the college dux with an OP 1, I excelled in various subjects, including Maths, Advanced Maths, Physics, Chemistry, Accounting, and English. In my final year of school, I secured the top position in the class across Maths, Advanced Maths, Physics, and Accounting.</p>
+							<img src="images/ImmanuelGraduation.jpg" alt="" width="600"/>
+							<br><br>
+
+							<h4>AUstralian Mathematics Trust AMC Prize Award 2018</h4>
+							<p>In 2018, I participated in a nationwide Mathematics competition in Australia, securing the 3rd position in Queensland and achieving a ranking in the top 0.3% among all participants.</p>
+							<img src="images/PrizeAward.jpg" alt="" width="600"/>
+						</article>
 
 						<!-- Work -->
-							<article id="Work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p></p>
-							</article>
+						<article id="Work">
+							<h2 class="major">Work</h2>
+							<h4>Logisitics Coordinator - Lucent Globe</h4>
+							<h5>Feb 2023 to present</h5>
+							<p>In my role, I managed the transportation of goods for timely and cost-effective delivery, overseeing inventory and collaborating with suppliers. I maintained accurate shipment records, communicated with carriers, and optimized routes for efficiency. I also assisted in selecting logistics providers, handled customs documentation, and resolved transportation disputes. Working closely with procurement and warehousing teams, I ensured a smooth supply chain operation.</p>
+							<img src="images/LucentGlobe.jpg" alt="" width="200"/>
+							<br><br>
+
+							<h4>Data Validator & Extractor - Solar Service Guys</h4>
+							<h5>Nov 2022 to Feb 2023</h5>
+							<p>I used SQL to extract and validate customer contact data (email & phone) from the CRM database. After importing the email list into HubSpot, I set up and monitored an email campaign for the LG Recall and ACCC mandates. I addressed data discrepancies and errors, working with various teams. I also monitored and reported on data validation progress. Additionally, I contributed to the development of data validation protocols and participated in data quality improvement initiatives.</p>
+							<span class="image main"><img src="images/SolarService.png" alt="" /></span>
+							
+							<h4>Barista - Kaldi Cafe and Bar</h4>
+							<h5>Mar 2019 to Nov 2022</h5>
+							<p>As a barista, I skillfully crafted and served a variety of coffee beverages, ensuring high-quality standards and customer satisfaction. I maintained a clean and organized workspace, managed inventory, and restocked supplies as needed. Taking customer orders and handling transactions efficiently, I provided a friendly and welcoming atmosphere. Collaborating with the team, I contributed to a positive work environment and supported colleagues during busy periods. My focus on customer service, attention to detail, and ability to handle a fast-paced environment were key assets in delivering an exceptional coffee experience.</p>
+							<span class="image main"><img src="images/Kaldi.png" alt="" /></span>
+						</article>
 
 						<!-- Skills -->
-							<article id="Skills">
-								<h2 class="major">Skills</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p></p>
-							</article>
+						<article id="Skills">
+							<h1>My Skills</h1>
+
+							<h3>Programming Languages</h3>
+
+							<p>Python</p>
+							<div class="container">
+								<div class="skills python">85%</div>
+							</div>
+
+							<p>C#</p>
+							<div class="container">
+								<div class="skills csharp">80%</div>
+							</div>
+
+							<p>MatLab</p>
+							<div class="container">
+								<div class="skills matlab">70%</div>
+							</div>
+
+							<p>C++</p>
+							<div class="container">
+								<div class="skills cplusplus">60%</div>
+							</div>
+
+							<p>HTML</p>
+							<div class="container">
+								<div class="skills html">60%</div>
+							</div>
+
+							<p>R</p>
+							<div class="container">
+								<div class="skills r">50%</div>
+							</div>
+
+							<p>JavaScript</p>
+							<div class="container">
+								<div class="skills js">50%</div>
+							</div>
+
+							<p>SQL</p>
+							<div class="container">
+								<div class="skills sql">50%</div>
+							</div>
+
+							<p>Java</p>
+							<div class="container">
+								<div class="skills java">45%</div>
+							</div>
+
+							<br>
+							<h3>Development Tools</h3>
+
+							<p>Unity</p>
+							<div class="container">
+								<div class="skills unity">80%</div>
+							</div>
+							
+							<p>Visual Studio</p>
+							<div class="container">
+								<div class="skills vs">70%</div>
+							</div>
+
+							<p>LaTeX</p>
+							<div class="container">
+								<div class="skills latex">70%</div>
+							</div>
+
+							<p>IntelliJ</p>
+							<div class="container">
+								<div class="skills intellij">65%</div>
+							</div>
+
+							<p>Photoshop</p>
+							<div class="container">
+								<div class="skills photoshop">60%</div>
+							</div>
+
+							<p>Blender</p>
+							<div class="container">
+								<div class="skills blender">50%</div>
+							</div>
+
+							<br>
+							<h3>Versioning Control</h3>
+
+							<p>Github</p>
+							<div class="container">
+								<div class="skills github">70%</div>
+							</div>
+
+							<br>
+							<h3>Other</h3>
+
+							<p>Excel</p>
+							<div class="container">
+								<div class="skills excel">90%</div>
+							</div>
+						</article>
 					</div>
 
 				<!-- Footer -->
